@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Weapon.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="text-1683353961367.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Weapon.cs" />
+  </ItemGroup>
+
+</Project>

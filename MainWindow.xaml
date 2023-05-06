@@ -1,0 +1,9 @@
+﻿<Window x:Class="SplatoonFanGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Splatoon Fan Game" Height="450" Width="800">
+    <Grid>
+        <Image Margin="252,58,252,295" Source="/text-1683353961367.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
